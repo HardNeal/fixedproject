@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webtorus</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href='http://fonts.googleapis.com/css?family=Oxygen|Lato:300|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="style.css" rel="stylesheet">
+    
+    <link href="css/animate-custom.css" rel="stylesheet">
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+    <!-- jmpress plugin -->
+	<script type="text/javascript" src="js/jmpress.min.js"></script>
+	<!-- jmslideshow plugin : extends the jmpress plugin -->
+	<script type="text/javascript" src="js/jquery.jmslideshow.js"></script>
+    
+    
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    
+    
+    <!-- Responsive menu -->
+    
+    <script src="js/modernizr.custom.js"></script>
+    
+    <script src="js/jquery.dlmenu.js"></script>
+
+    <a href="index.html" class="logo"><img src="img/logo.png" alt="logo" /></a>
+            
+
+</head>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
